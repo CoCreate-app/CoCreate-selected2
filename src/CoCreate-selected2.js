@@ -1,8 +1,8 @@
 // listen click in canvas  to copy a said attribute to said attribute on the target
 
 
-window.addEventListener("load", () => {
-  window.selected2 = function selected2({
+
+export default function CoCreateSelected2({
     sourceDocument,
     destDocument,
     wrap,
@@ -31,4 +31,4 @@ window.addEventListener("load", () => {
     });
 
   };
-});
+
